@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "sqlite3.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *txtNome;
+
+@property (weak, nonatomic) IBOutlet UITextField *txtEmail;
+
+- (IBAction)save:(id)sender;
+- (IBAction)find:(id)sender;
+
+@property NSString *databasePath;
+@property sqlite3 *db;
+
 
 
 @end

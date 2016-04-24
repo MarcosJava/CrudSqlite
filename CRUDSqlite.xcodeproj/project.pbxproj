@@ -14,6 +14,10 @@
 		1874F6191BD4233200C6C12D /* CRUDSqlite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1874F6171BD4233200C6C12D /* CRUDSqlite.xcdatamodeld */; };
 		1874F61B1BD4233200C6C12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1874F61A1BD4233200C6C12D /* Assets.xcassets */; };
 		1874F61E1BD4233200C6C12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1874F61C1BD4233200C6C12D /* LaunchScreen.storyboard */; };
+		1874F6261BD4247C00C6C12D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874F6251BD4247C00C6C12D /* libsqlite3.tbd */; settings = {ATTRIBUTES = (Required, ); }; };
+		1874F6281BD424CA00C6C12D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874F6271BD424CA00C6C12D /* libsqlite3.0.tbd */; };
+		18D59ABA1BD5DE7000D778CB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D59AB91BD5DE7000D778CB /* logo.png */; settings = {ASSET_TAGS = (); }; };
+		18D59ABD1BD5E3E600D778CB /* ClientesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D59ABC1BD5E3E600D778CB /* ClientesViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,11 @@
 		1874F61A1BD4233200C6C12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1874F61D1BD4233200C6C12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1874F61F1BD4233200C6C12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1874F6251BD4247C00C6C12D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1874F6271BD424CA00C6C12D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		18D59AB91BD5DE7000D778CB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../logo.png; sourceTree = "<group>"; };
+		18D59ABB1BD5E3E600D778CB /* ClientesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientesViewController.h; sourceTree = "<group>"; };
+		18D59ABC1BD5E3E600D778CB /* ClientesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1874F6281BD424CA00C6C12D /* libsqlite3.0.tbd in Frameworks */,
+				1874F6261BD4247C00C6C12D /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,9 @@
 		1874F5FF1BD4233100C6C12D = {
 			isa = PBXGroup;
 			children = (
+				18D59AB91BD5DE7000D778CB /* logo.png */,
+				1874F6251BD4247C00C6C12D /* libsqlite3.tbd */,
+				1874F6271BD424CA00C6C12D /* libsqlite3.0.tbd */,
 				1874F60A1BD4233200C6C12D /* CRUDSqlite */,
 				1874F6091BD4233200C6C12D /* Products */,
 			);
@@ -65,6 +79,8 @@
 				1874F6111BD4233200C6C12D /* ViewController.h */,
 				1874F6121BD4233200C6C12D /* ViewController.m */,
 				1874F6141BD4233200C6C12D /* Main.storyboard */,
+				18D59ABB1BD5E3E600D778CB /* ClientesViewController.h */,
+				18D59ABC1BD5E3E600D778CB /* ClientesViewController.m */,
 				1874F61A1BD4233200C6C12D /* Assets.xcassets */,
 				1874F61C1BD4233200C6C12D /* LaunchScreen.storyboard */,
 				1874F61F1BD4233200C6C12D /* Info.plist */,
@@ -140,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D59ABA1BD5DE7000D778CB /* logo.png in Resources */,
 				1874F61E1BD4233200C6C12D /* LaunchScreen.storyboard in Resources */,
 				1874F61B1BD4233200C6C12D /* Assets.xcassets in Resources */,
 				1874F6161BD4233200C6C12D /* Main.storyboard in Resources */,
@@ -157,6 +174,7 @@
 				1874F6101BD4233200C6C12D /* AppDelegate.m in Sources */,
 				1874F60D1BD4233200C6C12D /* main.m in Sources */,
 				1874F6191BD4233200C6C12D /* CRUDSqlite.xcdatamodeld in Sources */,
+				18D59ABD1BD5E3E600D778CB /* ClientesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +321,7 @@
 				1874F6241BD4233200C6C12D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
